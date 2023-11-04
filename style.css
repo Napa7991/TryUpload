@@ -1,0 +1,39 @@
+
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+}
+button {
+  cursor: pointer;
+}
+
+.btn:hover {
+  transform: scale(1.2);
+  background-color: #5c8daf;
+  transition: 0.5s;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  margin: 1rem;
+}
+
+.numberDiv {
+  padding: 0.3rem;
+  border: 1px solid black;
+  margin: 0.1rem;
+  text-align: center;
+  cursor: pointer;
+}
+.active {
+  background-color: #5c8daf;
+  transform: scale(1.2);
+}
+
+.hero {
+  background-color: red;
+}
